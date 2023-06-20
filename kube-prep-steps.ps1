@@ -1,9 +1,9 @@
 #### Parameters
 
-$keyvaultname = "xxxxx"
+$keyvaultname = "aksdemocluster-kv"
 $location = "xxxxx"
-$keyvaultrg = "xxxxxx"
-$sshkeysecret = "xxxxx"
+$keyvaultrg = "aksdemo-rg"
+$sshkeysecret = "akssshpubkey"
 $spnclientid = "xxxxxx"
 $clientidkvsecretname = "xxxxxx"
 $spnclientsecret = "xxxxxx"
