@@ -15,12 +15,6 @@ steps:
     command: 'init'
     allowTelemetryCollection: true
 
-- task: TerraformCLI@0
-  displayName: Terraform Plan
-  inputs:
-    command: 'plan'
-    environmentServiceName: 'youtube-app-service-connection'
-    allowTelemetryCollection: false
 
 
 
